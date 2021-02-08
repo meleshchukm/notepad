@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.main-content {
+	width: 75vw;
+	height: 90vh;
+	margin: 5vh auto;
+	padding: 1vh;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+}
+
+.main-content:active {
+	border: none;
+}
