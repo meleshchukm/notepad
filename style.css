@@ -12,8 +12,12 @@
 	padding: 1vh;
 	font-size: 1.5rem;
 	line-height: 1.5rem;
+	outline: none;
+	border: none;
 }
 
-.main-content:active {
-	border: none;
+.main-content:empty::before {
+    content: attr(data-placeholder);
+    color: rgb(187, 184, 184);
+    opacity: .6;
 }
